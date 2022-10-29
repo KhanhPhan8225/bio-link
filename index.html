@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script async src="/va/script.js"></script>
     <script>
     window.addEventListener('DOMContentLoaded', () => {
       VANTA.HALO({
@@ -71,5 +72,10 @@
         </li>
       </ul>
     </main>
+    <script>
+      window.va = function () {
+        (window.vaq = window.vaq || []).push(arguments);
+      };
+    </script>
   </body>
 </html>
